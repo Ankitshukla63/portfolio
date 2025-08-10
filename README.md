@@ -15,3 +15,10 @@ This is my personal portfolio website built using:
 - Contact form that stores messages in Google Sheets
 
 ## 📂 Folder Structure
+portfolio/
+├── index.html
+├── styles.css
+├── script.js
+├── images/
+├── resume.pdf
+└── README.md
