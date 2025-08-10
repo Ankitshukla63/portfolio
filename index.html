@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ankit Shukla — Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark custom-nav fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ankit Shukla</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="hero" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-6" data-aos="fade-right">
+          <p class="small-welcome">WELCOME TO MY WORLD ✧</p>
+          <h1 class="hero-title">Hi, I'm <span class="accent">Ankit Shukla</span></h1>
+          <h3 class="hero-sub"><span id="typed"></span></h3>
+          <p class="hero-desc">B.Tech student (NIET, Batch 2026). I design and build user-centered web apps — from clean UI to secure backends.</p>
+          <div class="mt-4 d-flex flex-wrap gap-2">
+            <a href="#projects" class="btn btn-primary btn-lg">My Projects</a>
+            <a href="Ankit_shukla_new_resume.pdf" class="btn btn-outline btn-lg" download>Download CV</a>
+          </div>
+
+          <div class="social mt-4">
+            <a href="https://www.linkedin.com/in/ankitshukla63" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Ankitshukla63" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://leetcode.com/u/ankitshukla63/" target="_blank" title="LeetCode"><i class="fa-solid fa-code"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 text-center" data-aos="fade-left">
+          <div class="hero-photo-wrap">
+            <img src="images\Profile.jpeg" alt="Ankit" class="profile-img">
+            <div class="photo-glow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="row align-items-center g-5"> <div class="col-md-4 text-center" data-aos="zoom-in">
+          <img src="images\Project1.jpeg" alt="About" class="about-img">
+        </div>
+        <div class="col-md-8" data-aos="fade-up">
+          <h2 class="section-title">About Me</h2>
+          <p class="muted">I’m Ankit — a B.Tech (NIET) student building full-stack projects with an emphasis on secure, user-friendly interfaces. I’m experienced with Django, JWT auth, PostgreSQL/SQLite, HTML/CSS/JS and Figma.</p>
+          <p class="muted">My design approach: empathy → research → wireframe → prototype → test → iterate.</p>
+
+          <h4 class="mt-4 mb-3">Core Skills</h4>
+          <div class="skills-grid">
+            <div class="skill-item"><i class="fa-brands fa-java"></i> Java</div>
+            <div class="skill-item"><i class="fa-brands fa-html5"></i> HTML/CSS/JS</div>
+            <div class="skill-item"><i class="fa-brands fa-python"></i> Django</div>
+            <div class="skill-item"><i class="fa-solid fa-database"></i> SQL</div>
+            <div class="skill-item"><i class="fa-brands fa-figma"></i> Figma</div>
+            <div class="skill-item"><i class="fa-brands fa-bootstrap"></i> Bootstrap</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section dark-section">
+    <div class="container">
+      <h2 class="section-title text-center mb-4">Services</h2>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="card service-card">
+            <div class="card-body text-center">
+              <i class="fa-solid fa-paint-brush icon"></i>
+              <h5 class="mt-2">UI / UX Design</h5>
+              <p class="muted small">Wireframes, prototypes, usability testing and visual systems.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="80">
+          <div class="card service-card">
+            <div class="card-body text-center">
+              <i class="fa-solid fa-code icon"></i>
+              <h5 class="mt-2">Front-end Development</h5>
+              <p class="muted small">Responsive apps using HTML, CSS, JS & Bootstrap.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="160">
+          <div class="card service-card">
+            <div class="card-body text-center">
+              <i class="fa-solid fa-server icon"></i>
+              <h5 class="mt-2">Full-Stack</h5>
+              <p class="muted small">Django backends, REST APIs, auth, deployment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title text-center mb-4">Featured Projects</h2>
+
+      <div id="project-filters" class="d-flex justify-content-center flex-wrap gap-2 mb-4" data-aos="fade-up">
+        <button class="btn btn-sm btn-outline-dark active" data-filter="*">All</button>
+        <button class="btn btn-sm btn-outline-dark" data-filter="django">Django</button>
+        <button class="btn btn-sm btn-outline-dark" data-filter="ai-ml">AI/ML</button>
+        <button class="btn btn-sm btn-outline-dark" data-filter="web">Web</button>
+      </div>
+
+      <div id="project-grid" class="row g-4">
+        <div class="col-md-6 col-lg-4 project-item" data-category="django web" data-aos="flip-left">
+          <div class="card project-card">
+            <img src="images\Project4.jpg" class="card-img-top" alt="Secure File Sharing">
+            <div class="card-body">
+              <h5>Secure File Sharing</h5>
+              <p class="muted small">Django app with role-based access, JWT auth, email verification & time-limited download tokens.</p>
+              <div class="d-flex gap-2 mt-3">
+                <button class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#modal1">Case study</button>
+                <a href="https://github.com/Ankitshukla63/secure_file_transfer" target="_blank" class="btn btn-primary">Source</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 project-item" data-category="ai-ml web" data-aos="flip-left" data-aos-delay="80">
+          <div class="card project-card">
+            <img src="images/project2.jpg" class="card-img-top" alt="AI Ed App">
+            <div class="card-body">
+              <h5>AI Educational App (MVP)</h5>
+              <p class="muted small">Generates filtered educational content using content APIs; admin moderation UI.</p>
+              <div class="d-flex gap-2 mt-3">
+                <button class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#modal2">Case study</button>
+                <a href="#" class="btn btn-primary disabled">Live</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 project-item" data-category="ai-ml web" data-aos="flip-left" data-aos-delay="160">
+          <div class="card project-card">
+            <img src="images/project3.jpg" class="card-img-top" alt="Attendance">
+            <div class="card-body">
+              <h5>Automated Attendance (Face Rec)</h5>
+              <p class="muted small">Face recognition attendance system with web UI and SQL storage.</p>
+              <div class="d-flex gap-2 mt-3">
+                <button class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#modal3">Case study</button>
+                <a href="#" class="btn btn-primary disabled">Source</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="modal1" tabindex="-1"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content modal-theme"><div class="modal-header border-0"><h5 class="modal-title">Secure File Sharing — Case study</h5><button class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="row g-3"><div class="col-md-6"><img src="images/project1.jpg" class="img-fluid rounded" alt=""></div><div class="col-md-6"><h6>Overview</h6><p class="muted small">Django backend, JWT auth, time-limited encrypted downloads, role dashboards.</p><h6>Contributions</h6><ul class="muted small"><li>Auth & role-based access</li><li>Secure tokenized link generator</li><li>Frontend & API integration</li></ul></div></div></div></div></div></div>
+  <div class="modal fade" id="modal2" tabindex="-1"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content modal-theme"><div class="modal-header border-0"><h5 class="modal-title">AI Educational App — Case study</h5><button class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="row g-3"><div class="col-md-6"><img src="images/project2.jpg" class="img-fluid rounded" alt=""></div><div class="col-md-6"><h6>Overview</h6><p class="muted small">Content generation pipeline with moderation & teacher review flows.</p></div></div></div></div></div></div>
+  <div class="modal fade" id="modal3" tabindex="-1"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content modal-theme"><div class="modal-header border-0"><h5 class="modal-title">Automated Attendance — Case study</h5><button class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="row g-3"><div class="col-md-6"><img src="images/project3.jpg" class="img-fluid rounded" alt=""></div><div class="col-md-6"><h6>Overview</h6><p class="muted small">Face recognition + SQL storage + reporting UI.</p></div></div></div></div></div></div>
+
+  <section id="contact" class="section dark-section">
+    <div class="container">
+      <h2 class="section-title text-center mb-4">Contact Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8" data-aos="fade-up">
+          <form action="https://formspree.io/f/YOUR_EMAIL_HERE" method="POST">
+            <div class="mb-3"><input class="form-control" type="text" name="Name" placeholder="Your name" required></div>
+            <div class="mb-3"><input class="form-control" type="email" name="Email" placeholder="Your email" required></div>
+            <div class="mb-3"><textarea class="form-control" name="Message" rows="5" placeholder="Your message" required></textarea></div>
+            <div class="d-grid"><button class="btn btn-primary btn-lg" type="submit">Send Message</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <div class="social mb-3">
+        <a href="https://www.linkedin.com/in/ankitshukla63" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Ankitshukla63" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://leetcode.com/u/ankitshukla63/" target="_blank" title="LeetCode"><i class="fa-solid fa-code"></i></a>
+      </div>
+      <p class="mb-1">© <span id="year"></span> Ankit Shukla. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <a href="#" class="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+</body>
+</html>
