@@ -1,6 +1,6 @@
 # Ankit Shukla - Portfolio Website
 
-🚀 **Live Demo:** [Click Here](https://USERNAME.github.io/portfolio)
+🚀 **Live Demo:** [Click Here](https://ankitshukla63.github.io/portfolio/)
 
 ## 📌 About
 This is my personal portfolio website built using:
